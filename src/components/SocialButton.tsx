@@ -1,4 +1,4 @@
-import { SocialButtonProps } from '../types';
+import type { SocialButtonProps } from '../types';
 
 const socialIcons = {
   github: (
