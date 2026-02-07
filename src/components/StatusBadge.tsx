@@ -1,4 +1,4 @@
-import { StatusBadgeProps } from '../types';
+import type { StatusBadgeProps } from '../types';
 
 export const StatusBadge = ({ available }: StatusBadgeProps) => {
   return (
