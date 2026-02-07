@@ -24,11 +24,11 @@ export const BusinessCard = ({ person, onEmailClick, onPhoneClick }: BusinessCar
       {/* Carte principale */}
       <div className="bg-white rounded-2xl shadow-2xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-3xl">
         {/* Header avec dégradé */}
-        <div className="h-32 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 relative">
+        <div className="h-32 bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 relative">
           <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2">
             {/* Avatar avec bordure animée */}
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur-md group-hover:blur-lg transition-all duration-300 opacity-75" />
+              <div className="absolute inset-0 bg-linear-to-r from-blue-500 to-purple-500 rounded-full blur-md group-hover:blur-lg transition-all duration-300 opacity-75" />
               <img
                 src={person.avatar}
                 alt={person.name}
