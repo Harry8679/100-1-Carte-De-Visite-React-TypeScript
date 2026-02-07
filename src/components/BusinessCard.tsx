@@ -1,4 +1,4 @@
-import { BusinessCardProps } from '../types';
+import type { BusinessCardProps } from '../types';
 import { SocialButton } from './SocialButton';
 import { StatusBadge } from './StatusBadge';
 
